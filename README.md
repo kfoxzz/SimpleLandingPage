@@ -2,8 +2,6 @@
 
 The attached code is basic HTML, CSS, and vanilla JS with minimal styling depicting a simple landing page with a carousel element and cards.
 
----
-
 ## Carousel
 
 The carousel functions in the following way:
@@ -13,8 +11,6 @@ The carousel functions in the following way:
 3. On page load, we add the 'active' class to the first button and carousel item, which then renders the first image.
 4. We then iterate through the array of buttons, and assign an on-click to each button, matching the index of the button to the corresponding index of the carousel item.
 5. When a navigation button is clicked, we remove the 'active' class from all buttons and items. We then add the 'active' class to only the corresponding button, and also to the carousel item with the same index as the button.
-
----
 
 ## Cards
 
